@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_cryptomask",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "cryptomask",
+				"outputs": [
+					{
+						"internalType": "contract Cryptomask",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Intruder.sol": "Intruder"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Cryptomask.sol": {
+			"keccak256": "0xad787c253c57c133fe8be209d037664fa02eaffe322efeda890ab7f942df9c09",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9be7648ac2c8a806c222940b02e3b7176ba5906b0b40b3651d1f8b5bb3292f62",
+				"dweb:/ipfs/QmXQDKXGZsVTqZCo3uWeokjLLDNqFBKqZgLrPnAJwPkKEV"
+			]
+		},
+		"contracts/Intruder.sol": {
+			"keccak256": "0x39131bc4a94c2273fc36422700942691a70f92a30526bb634c72076a66426cf3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://928eb2cd150f3e2bc24f29db8ed96d4dfe1fa0d484fe54b496ed7ec09a0d6938",
+				"dweb:/ipfs/QmRWo9o9JWFQpF3bbck9GTofG7Z3Grw9suafNYsCLzhxzx"
+			]
+		}
+	},
+	"version": 1
+}
