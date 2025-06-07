@@ -7,5 +7,5 @@ This Repo Consists of CryptoMask(wallet) and Intruder's Smart Contract, we have 
 The code of Contracts can be found inside the Contracts in Reentrancy Folder.
 
 Teammates: 
-1)Nikhil Marri: Nikhil.Marri@colorado.edu
-2)Roshan Nellore Prasad: rone7552@colorado.edu
+1)Roshan Nellore Prasad: rone7552@colorado.edu
+2)Nikhil Marri: Nikhil.Marri@colorado.edu
